@@ -59,3 +59,80 @@ To get a local copy up and running, follow these simple steps.
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/callmekirankumar/greendashboard
+
+2. **Navigate to the project directory:**:
+   ```bash
+   cd green-dashboard
+
+3. **Install the dependencies**:
+   ```bash
+   npm install
+
+4. **Run the app**:
+   ```bash
+   npm start
+
+5. **Open in Browser**:
+   - Go to http://localhost:3000 to view the app in development mode.
+
+## 📚 Usage
+
+After running the project locally, you can explore the dashboard layout as shown in the screenshot. Note that this is a front-end template and doesn't have any backend integration or complex data management functionalities.
+
+### Layout Overview
+
+- **Sidebar**: Contains navigation links like Dashboard, My Orders, Explore, Products, Charts, Trends, etc.
+- **Welcome Section**: Displays a welcome message along with a search bar.
+- **My Listings**: Shows sample plant listings with heart icons for favoriting.
+- **My Stat**: Quick overview of current and monthly orders.
+- **Recent Activity**: Lists recent user activities with avatars and timestamps.
+
+## 📂 Folder Structure
+
+The project is organized as follows:
+```bash
+|   .gitignore
+|   folder_structure.txt
+|   image.png
+|   package-lock.json
+|   package.json
+|   README.md
++---public
+|       index.html
+|       
+\---src
+    |   app.css
+    |   App.js
+    |   index.js
+    |   
+    +---Assets      
+    \---Components
+        +---BodySection
+        |   +---ActivitySection       
+        |   +---ListingSection
+        |   \---TopSection
+        \---SideBarSection
+```
+
+## 🤝 Contributing
+Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated!**
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/YourFeature)
+3. Commit your Changes (git commit -m 'Add YourFeature')
+4. Push to the Branch (git push origin feature/YourFeature)
+5. Open a Pull Request
+
+## 📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+## 📬 Contact
+For any queries or feedback, feel free to reach out:
+
+- **Your Name** - kirankeerthi11.j@gmail.com
+- **Project Link**: https://github.com/callmekirankumar/greendashboard
+
+## 🌱 Acknowledgements
+
+- Icons from react-icons (https://react-icons.github.io/react-icons/)
+- Fonts from google fonts (https://fonts.google.com/)
